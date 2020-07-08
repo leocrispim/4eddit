@@ -6,6 +6,7 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import ExitToAppRoundedIcon from '@material-ui/icons/ExitToAppRounded';
 import Button from "@material-ui/core/Button";
 import MidLogo from "../Images/transparentreddit3.png"
+import BigLogo from "../Images/reddit-logo-17.png"
 import { connect } from "react-redux";
 import { push } from "connected-react-router";
 import { routes } from '../Router';
@@ -49,7 +50,7 @@ class HomePage extends Component {
           Olá e seja bem vindo ao 4Reddit!
         </HPS.BodyTitle>
 
-        <HPS.BigLogo src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c531.png" />
+        <HPS.BigLogo src={BigLogo} />
 
         <HPS.BodyDisclaimer>
           Ainda estamos em construção, mas fique a vontade para acessar outras partes de nosso site :)

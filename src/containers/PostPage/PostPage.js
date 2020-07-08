@@ -192,6 +192,7 @@ function mapDispatchToProps(dispatch) {
   return {
     goToHomePage: () => dispatch(push(routes.HomePage)),
     goToLoginPage: () => dispatch(push(routes.LoginPage)),
+    goToUserPage: () => dispatch(push(routes.UserPage)),
     goToDisclaimerPage: () => dispatch(push(routes.DisclaimerPage)),
     goToFeedPage: () => dispatch(push(routes.FeedPage)),
     getPostDetails: (postID) => dispatch(getPostDetails(postID)),
